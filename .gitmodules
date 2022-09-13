@@ -1,0 +1,3 @@
+[submodule "games_database"]
+	path = games_database
+	url = https://github.com/SidneyBovet/games_database.git
