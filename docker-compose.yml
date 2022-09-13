@@ -8,3 +8,7 @@ services:
       - .:/code
     ports:
       - "8000:8000"
+    labels:
+      net.unraid.docker.managed: 'composeman'
+      net.unraid.docker.icon: 'https://whatemoji.org/wp-content/uploads/2020/07/Game-Die-Emoji.png'
+      net.unraid.docker.webui: 'unraid.home:8000'
